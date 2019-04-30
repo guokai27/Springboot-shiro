@@ -1,4 +1,3 @@
-# Springboot-shiro
 # 整合Spring Boot API Project Seed+shiro
 ## shiro 设计思路
 ### 核心
