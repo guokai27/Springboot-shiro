@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.ArticleMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Article">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="focus_areas" jdbcType="VARCHAR" property="focusAreas" />
+    <result column="focus_task" jdbcType="VARCHAR" property="focusTask" />
+    <result column="task_content" jdbcType="VARCHAR" property="taskContent" />
+    <result column="target" jdbcType="VARCHAR" property="target" />
+    <result column="respon_leader" jdbcType="VARCHAR" property="responLeader" />
+    <result column="lead_branch" jdbcType="VARCHAR" property="leadBranch" />
+    <result column="coop_branch" jdbcType="VARCHAR" property="coopBranch" />
+    <result column="finish_state" jdbcType="INTEGER" property="finishState" />
+    <result column="finish_state_judge" jdbcType="VARCHAR" property="finishStateJudge" />
+    <result column="respon_depart" jdbcType="VARCHAR" property="responDepart" />
+    <result column="respon_person" jdbcType="VARCHAR" property="responPerson" />
+    <result column="create_time" jdbcType="DATE" property="createTime" />
+    <result column="finish_time" jdbcType="DATE" property="finishTime" />
+  </resultMap>
+</mapper>
